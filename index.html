@@ -1,30 +1,39 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Peter's Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Peter Senyane | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <header class="hero">
-    <div class="hero-content">
-      <h1>Hi, I'm Peter 👋</h1>
-      <p>Aspiring Web Developer & FNB App Academy Finalist</p>
+    <img src="peter_hero_photo.jpg" alt="Peter Senyane" class="hero-img"/>
+    <div class="hero-text">
+      <h1>Hi, I'm <span>Peter Senyane</span></h1>
+      <p>I build clean, simple, and impactful websites.</p>
+      <a href="#projects" class="btn">View My Work</a>
     </div>
   </header>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="projects.html">Projects</a>
-  </nav>
-  <main>
-    <section class="intro">
-      <h2>About Me</h2>
-      <p>I'm Peter, a passionate tech learner from South Africa and a proud participant of the FNB App Academy. I love building clean, simple websites with HTML and CSS, and I'm always eager to explore more of the web development world.</p>
-      <p>This website was created as my final showcase for the Academy's challenge. Hope you like it!</p>
-    </section>
-  </main>
+
+  <section id="projects" class="projects-section">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Project 1</h3>
+        <p>Responsive website using HTML/CSS</p>
+      </div>
+      <div class="project-card">
+        <h3>Project 2</h3>
+        <p>Portfolio with animations and layout design</p>
+      </div>
+    </div>
+  </section>
+
   <footer>
-    <p>© 2025 Peter Senyane | FNB App Academy</p>
+    <p>Contact: <a href="mailto:senyanepeter@gmail.com">senyanepeter@gmail.com</a></p>
   </footer>
 </body>
 </html>
